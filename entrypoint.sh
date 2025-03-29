@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "Hello world from container registry!!"
+echo "Hello world from container registry!! test push"
 
