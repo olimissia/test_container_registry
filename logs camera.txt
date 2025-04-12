@@ -99,3 +99,22 @@ Traceback (most recent call last):
   File "/ia_inference/src/main2.py", line 291, in run
     frame = next(webcam_stream)
 StopIteration
+
+
+
+
+
+
+
+
+docker run --rm \
+  --runtime nvidia \
+  --gpus all \
+  --privileged \
+  -v /tmp/argus_socket:/tmp/argus_socket \
+  -v /etc/enctune.conf:/etc/enctune.conf \
+  -v /tmp/nv_jetson_model:/tmp/nv_jetson_model \
+  -v /var/run/dbus:/var/run/dbus \
+  -v /var/run/avahi-daemon/socket:/var/run/avahi-daemon/socket \
+  -v /dev/:/dev/ \
+  ghcr.io/olimissia/test-l4t-pytorch-dusty-infe:jetson
