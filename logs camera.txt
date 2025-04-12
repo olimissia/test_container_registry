@@ -1,0 +1,101 @@
+(base) jetsonorinnx@jetsonorinnx-desktop:~/Documents/Missia/ia_inference$ docker run ghcr.io/olimissia/test-l4t-pytorch-dusty-infe:jetson
+/ia_inference
+bash_docker.sh
+build_missia.sh
+commandes_utiles.txt
+demo.sh
+deployment
+docker-compose-monitoring.yml_enattente
+docker-compose.yml
+Dockerfile
+Dockerfile_adapt
+dockerfile copy
+dockerfile copy 2
+dockerfile copy 3
+dockerfile copy 4
+dockerfile_del_file
+dockerfile_it
+dockerfile_moi
+dockerfile_rm
+docker_image
+docker_image_history.log
+inference.sh
+loggit
+logs_infe.txt
+logs_terminal.txt
+model
+monitoring
+README.md
+retours dashboard.txt
+Screenshot from 2025-04-02 14-56-25.png
+src
+tests
+transfert_ordi.txt
+🚀 [INFO] Lancement du script main2.py dans le conteneur container_inference...
+[2025-04-12 15:36:53] INFO - Nom de l'hôte : 824ad96ab1df
+[2025-04-12 15:36:53] INFO - Système d'exploitation : Linux
+[2025-04-12 15:36:53] INFO - Version du système : #1 SMP PREEMPT Mon May 6 09:56:39 PDT 2024
+[2025-04-12 15:36:53] INFO - Architecture : aarch64
+[2025-04-12 15:36:53] INFO - Nom de l'hôte : 824ad96ab1df
+[2025-04-12 15:36:53] INFO - Informations sur le système :
+PRETTY_NAME="Ubuntu 22.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.3 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+[2025-04-12 15:36:53] INFO - CUDA est disponible.
+[2025-04-12 15:36:53] INFO - Nombre de GPU disponibles : 1
+[2025-04-12 15:36:53] INFO - Nom du GPU : Orin
+[2025-04-12 15:36:53] INFO - Utilisation de l'appareil: cuda
+[2025-04-12 15:36:53] INFO - Loading model and processor...
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.163: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvv4l2camerasrc.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvv4l2camerasrc.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.164: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvcompositor.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvcompositor.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.164: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnveglglessink.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnveglglessink.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.164: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvarguscamerasrc.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvarguscamerasrc.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.164: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvjpeg.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvjpeg.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.164: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvivafilter.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvivafilter.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.164: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvtee.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvtee.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.165: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvegltransform.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvegltransform.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.165: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvvideo4linux2.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvvideo4linux2.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.165: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvvideosinks.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvvideosinks.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.165: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnveglstreamsrc.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnveglstreamsrc.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.165: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvdrmvideosink.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvdrmvideosink.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.165: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvvideosink.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvvideosink.so: file too short
+
+(gst-plugin-scanner:53): GStreamer-WARNING **: 15:37:27.165: Failed to load plugin '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvvidconv.so': /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstnvvidconv.so: file too short
+[ WARN:0@39.767] global cap_gstreamer.cpp:1173 isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
+[ WARN:0@39.767] global cap_v4l.cpp:999 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@39.769] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@39.770] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@39.770] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@39.770] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@39.771] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+[2025-04-12 15:37:27] ERROR - Could not open webcam.
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/ia_inference/src/main2.py", line 291, in run
+    frame = next(webcam_stream)
+StopIteration
